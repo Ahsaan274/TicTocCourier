@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Sender">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            >
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="46dp"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="48dp"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="42dp"
+                android:layout_marginRight="42dp"
+                android:ems="10"
+                android:hint="Sender name"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_marginStart="-14dp"
+                android:layout_marginTop="26dp"
+                android:text="Contact No:" />
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="33dp"
+                android:layout_marginRight="33dp"
+                android:layout_marginBottom="19dp"
+                android:ems="10"
+                android:enabled="false"
+                android:hint="03*********"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Sender Details:" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="74dp"
+                android:layout_marginTop="3dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/spinner"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="9dp"
+                android:text="To" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView8"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="88dp"
+                android:text="From" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView9"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="81dp"
+                android:layout_marginTop="-17dp" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView9"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="26dp"
+                android:layout_marginRight="26dp"
+                android:layout_marginBottom="-71dp"
+                android:ems="10"
+                android:hint="SpecificLocation"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="Specific Location"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="174dp"
+                android:layout_height="17dp"
+                android:layout_alignEnd="@+id/textView9"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="-109dp"
+                android:text="Location:" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp">
+
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="158dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:hint="Product Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editText12"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="1dp"
+                android:ems="10"
+                android:hint="Quantity"
+                android:inputType="textPersonName"
+                android:onClick="downloadIMage" />
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="158dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText12"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="14dp"
+                android:ems="10"
+                android:hint="Set Price"
+                android:inputType="textPersonName" />
+
+            <ImageView
+                android:id="@+id/uploadPicImage"
+                android:layout_width="176dp"
+                android:layout_height="81dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/image"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="52dp"
+
+                android:text="Upload Pic" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                android:text="Product:" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="-185dp"
+                android:layout_toStartOf="@+id/editText13"
+
+                android:text="Submit Request" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/downloadImagebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile" />
+
+
+</FrameLayout>

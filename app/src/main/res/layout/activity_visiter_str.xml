@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VisiterSTR"
+    android:background="@color/colorPrimary"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:text="Sender:"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/button_radius"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".9"
+            app:srcCompat="@drawable/senderr" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="@drawable/button_radius"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight=".1"
+            android:text="Traveler:"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_weight=".9"
+            app:srcCompat="@drawable/travelerimg" />
+    </LinearLayout>
+
+</LinearLayout>

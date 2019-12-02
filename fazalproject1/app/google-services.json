@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1070707500314",
+    "firebase_url": "https://fazalproject1.firebaseio.com",
+    "project_id": "fazalproject1",
+    "storage_bucket": "fazalproject1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070707500314:android:cce73d3d4afdb7bc",
+        "android_client_info": {
+          "package_name": "com.example.fazalproject1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070707500314-l88dlole8aooo0j64pmelg7vjnvm6qsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-F1H_1wxsknDOmun7ofdqtjE1-Ir2S4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070707500314-l88dlole8aooo0j64pmelg7vjnvm6qsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

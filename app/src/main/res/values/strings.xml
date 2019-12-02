@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_sender">Sender</string>
+    <string name="title_traveler">Traveler</string>
+    <string name="title_receiver">Receiver</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="terms_condition">Please read these terms and conditions carefully before using ItemBhej Application. Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service. ItemBhej is basically a communication platform in which users can communicate for the purpose of accepting a particular request of an item through sending a message on users mobile phone and proceed further process. Once the numbers has been Exchanged between the users, we will not be responsible for the further process. Later, it will be up the user whether he is willing to send his or her item through that particular traveler or not. We just help users to exchange contacts with eachother. For further process user will be responsible. By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.</string>
+    <string name="senderText">Hello Sender</string>
+    <string name="travelerText">Hello Traveler</string>
+    <string name="about_us">I,ahsaan Ansari developed this application with Fazal soomro.We recently graduated from Sukkur IBA
+    University in the respected departement of computer science.
+    We came so far on this road only under the supervision of Dr. Sajid khan,who is assisatnt professor at
+    Sukkur IBA University.</string>
+    <string name="about_app">This app is designed to provide the ease to the people,where Sender can send/receive their items from city A to City B.
+    Sender will able to make the requests and the reasonable request will be displayed to the travelers.
+    Travelers will have very much amount of choices he could make for choosing the reasonable amount of money he can get.
+    Reciever will have to wait until his/her item arrives.In the meantime,he/she can
+    see the current location of the traveler,who is holding his/her item on the way for his/her satisfaction.</string>
+    <string name="app_name">TicTocCourier</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Enter-code</string>
+    <string name="login_button_label">Login</string>
+    <string name="sign_up_text">Sign Up!</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="email_hint">Enter Your Phone Number</string>
+    <string name="sign_up_button_label">Sign Up</string>
+    <string name="Submit">Submit</string>
+    <string name="Register">Register</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_str">TicToc Courier</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="cities_array">
+        <item>To</item>
+        <item>Karachi</item>
+        <item>Sukkur</item>
+        <item>Hyderabad</item>
+    </string-array>
+
+    <string-array name="strings_array">
+        <item>From</item>
+        <item>Karachi</item>
+        <item>Sukkur</item>
+        <item>Hyderabad</item>
+    </string-array>
+
+
+    <string name="title_activity_maps">Map</string>
+
+</resources>

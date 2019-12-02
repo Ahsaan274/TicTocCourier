@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_sender"
+        android:icon="@drawable/sender"
+        android:title="@string/title_sender" />
+
+    <item
+        android:id="@+id/navigation_traveler"
+        android:icon="@drawable/traveler"
+        android:title="@string/title_traveler" />
+
+    <item
+        android:id="@+id/navigation_receiver"
+        android:icon="@drawable/receiver"
+        android:title="@string/title_receiver" />
+
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUsActivity"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:text="About App"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".9"
+            android:text="This app is designed to provide the ease to the people,where Sender can send/receive their items from city A to City B.
+Sender will able to make the requests and the reasonable request will be displayed to the travelers.
+Travelers will have very much amount of choices he could make for choosing the reasonable amount of money he can get.
+Reciever will have to wait until his/her item arrives.In the meantime,he/she can
+see the current location of the traveler,who is holding his/her item on the way for his/her satisfaction.
+"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:text="About Us"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".9"
+            android:text="I,ahsaan Ansari developed this application with Fazal soomro.We recently graduated from Sukkur IBA
+University in the respected departement of computer science.
+We came so far on this road only under the supervision of Dr. Sajid khan,who is assisatnt professor at
+Sukkur IBA University.
+"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

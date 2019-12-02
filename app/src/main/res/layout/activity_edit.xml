@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Sender">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/button_radius"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:text="Edit Your Record"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorWhite"
+                    android:fontFamily="sans-serif-medium"
+                    />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:rotation="45"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/square"
+                android:layout_below="@+id/LinearLayout1"
+                android:layout_centerHorizontal="true"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/emptyLayout"
+                android:layout_below="@+id/LinearLayout1"
+                android:orientation="vertical"></LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/emptyLayout"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="40dp"
+
+                    android:id="@+id/submitButtonImg"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimary"
+                    android:padding="8dp"
+                    android:src="@drawable/item_name"
+                    />
+
+                <EditText
+                    android:id="@+id/ItemNameEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/editTextBG"
+                    android:hint="Item Name"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignBottom="@+id/submitButtonImg"
+                    android:layout_toRightOf="@+id/submitButtonImg"
+
+                    />
+            </RelativeLayout>
+
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/RelativeLayout1"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="40dp"
+
+                    android:id="@+id/quantityImg"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimary"
+                    android:padding="8dp"
+                    android:src="@drawable/quantity"
+                    />
+
+                <EditText
+                    android:id="@+id/QuantityEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/editTextBG"
+                    android:hint="Quantity"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignBottom="@+id/quantityImg"
+                    android:layout_toRightOf="@+id/quantityImg"
+
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/RelativeLayout3"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/RelativeLayout2"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:id="@+id/ToLocIcon"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimary"
+                    android:padding="8dp"
+                    android:src="@drawable/direction"
+                    />
+
+                <Spinner
+                    android:id="@+id/spinnerEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignBottom="@+id/ToLocIcon"
+                    android:layout_toRightOf="@+id/ToLocIcon"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/RelativeLayout4"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/RelativeLayout3"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:id="@+id/FromLocIcon"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimary"
+                    android:padding="8dp"
+                    android:src="@drawable/direction"
+                    />
+
+
+                <Spinner
+                    android:id="@+id/spinner2Edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/FromLocIcon"
+                    android:layout_toRightOf="@+id/FromLocIcon"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout5"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/RelativeLayout4"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="40dp"
+
+                    android:id="@+id/reepasswordIcon"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimary"
+                    android:padding="8dp"
+                    android:src="@drawable/price"
+                    />
+
+                <EditText
+                    android:id="@+id/PriceEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/editTextBG"
+                    android:hint="Price"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignBottom="@+id/reepasswordIcon"
+                    android:layout_toRightOf="@+id/reepasswordIcon"
+
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/RelativeLayout6"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/RelativeLayout5"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:id="@+id/UploadpicEdit"
+                    android:layout_height="100dp"
+                    android:background="@color/colorPrimary"
+                    android:padding="8dp"
+                    android:src="@drawable/upload_image"
+                    />
+
+                <Button
+                    android:id="@+id/UploadPicBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/editTextBG"
+                    android:hint="UploadItemImage"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignBottom="@+id/UploadpicEdit"
+                    android:layout_toRightOf="@+id/UploadpicEdit"
+
+                    />
+
+            </RelativeLayout>
+
+
+            <ProgressBar
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/progress_barEdit"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout6"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="16dp" />
+
+
+            <Button
+                android:id="@+id/registerButtonEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progress_barEdit"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_radius"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Submit"
+
+
+                />
+
+            <Button
+                android:id="@+id/cancelButtonEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/registerButtonEdit"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_radius"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:text="Cancel"
+
+
+                />
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>

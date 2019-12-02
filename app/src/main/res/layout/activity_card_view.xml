@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view"
+    android:layout_margin="5dp"
+    android:background="@color/white"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/button_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/SenderItemName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Number"
+                    android:textColor="@color/white"
+                    android:textSize="24dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/grey" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/image_view_upload"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="1dp"
+                        android:src="@drawable/phonecode" />
+
+                    <LinearLayout
+                        android:id="@+id/qp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="90dp"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/Newquantity"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="20"
+                                android:textColor="@color/white"
+                                android:textSize="20dp"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="Quantity"
+                                android:textColor="@color/white"
+                                android:textSize="14dp"
+
+                                />
+
+
+                        </LinearLayout>
+
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:src="@drawable/logo" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/NewPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="15"
+                                android:textColor="@color/white"
+                                android:textSize="20dp"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="Price"
+                                android:textColor="@color/white"
+                                android:textSize="14dp"
+
+                                />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right">
+
+
+                    <ImageView
+                        android:id="@+id/updateImg"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/updateimg"
+                        android:tint="@color/white"
+
+                        ></ImageView>
+
+                    <ImageView
+                        android:id="@+id/deleteImg"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/deleteicon"
+                        android:tint="@color/white"
+
+                        ></ImageView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width='match_parent'
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="320 Likes"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/item_detail"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="320 Likes"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/item_title"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

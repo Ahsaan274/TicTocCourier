@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartUpActivity"
+    android:background="@color/editTextBG"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/startUpLayout"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:id="@+id/startUpWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textSize="50dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="TicTocCourier!" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:id="@+id/startUpMotoLine"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="Earn while Traveling!" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logoman" />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="200dp">
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="150dp">
+         <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             app:srcCompat="@drawable/logo"
+             />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="20dp"
+         >
+
+
+         <Button
+             android:id="@+id/memberBtn"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Member" />
+
+     </LinearLayout>
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="20dp">
+
+         <Button
+             android:id="@+id/visiterBtn"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Visiter" />
+
+     </LinearLayout>
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <Button
+             android:id="@+id/aboutUsBtn"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="About Us" />
+     </LinearLayout>
+
+ -->
+
+    <com.hitomi.cmlibrary.CircleMenu
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/startUpLayout"
+        android:id="@+id/circle"
+        />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/circle"
+        android:layout_marginTop="-180dp"
+        >
+        <TextView
+            android:id="@+id/PressBtn"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Press Menu"
+            android:textStyle="bold|italic"
+            app:layout_constraintTop_toBottomOf="@id/circle"
+            ></TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</RelativeLayout>
